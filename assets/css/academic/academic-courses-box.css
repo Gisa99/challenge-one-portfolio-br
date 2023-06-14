@@ -1,0 +1,14 @@
+.academic__courses__box{
+    background: #FFFFFF;
+    width: 328px;
+    height: 228px;
+    margin: 5px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    line-height: 20px;
+    
+}
+

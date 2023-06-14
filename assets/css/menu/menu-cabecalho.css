@@ -1,0 +1,9 @@
+.menu__cabecalho{
+    display:flex;
+    align-items: center;
+    margin-left: 10%;
+}
+
+.menu__icone{
+    height: 20px;
+}

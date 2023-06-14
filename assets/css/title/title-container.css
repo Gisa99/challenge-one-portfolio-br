@@ -1,0 +1,27 @@
+.title__container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    column-gap: 208px;
+    margin: 0 auto;
+
+    width: 65%;
+    
+}
+
+.title__bio{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 61px;
+}
+
+.title__subsection{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+
+}

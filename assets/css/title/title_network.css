@@ -1,0 +1,12 @@
+.title__network{
+    display: flex;
+    padding-inline-start: 0; 
+    column-gap: 24px;
+}
+
+.title__network a:hover{
+color: #681802;
+text-decoration: underline;
+}
+
+

@@ -1,0 +1,17 @@
+.menu__list{
+    display:flex;
+    align-items: center;
+    gap: 32px;
+}
+.menu__list a{
+    color:  #464646;
+}
+.menu__list a:hover{
+    color: #681802;
+    text-decoration: underline;
+
+}
+
+.menu__list .contato{
+    font-weight: bolder;
+}
