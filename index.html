@@ -36,9 +36,29 @@
     <link rel="stylesheet" href="assets/css/academic/academic-courses.css">
     <link rel="stylesheet" href="assets/css/academic/academic.css">
     <link rel="stylesheet" href="assets/css/academic/academic-courses-list.css">
+    <link rel="stylesheet" href="assets/css/academic/academic-courses-itens-img.css">
 
+    <link rel="stylesheet" href="assets/css/experience/experience__description.css">
+    <link rel="stylesheet" href="assets/css/experience/experience-title.css">
+    <link rel="stylesheet" href="assets/css/experience/experience-section-title.css">
+    <link rel="stylesheet" href="assets/css/experience/experience-next.css">
+    <link rel="stylesheet" href="assets/css/experience/experience-info.css">
+    <link rel="stylesheet" href="assets/css/experience/experience-img.css">
+    <link rel="stylesheet" href="assets/css/experience/experience-box.css">
+    <link rel="stylesheet" href="assets/css/experience/experience-buttons.css">
+
+    <link rel="stylesheet" href="assets/css/contato/formcontato-contacto.css">
+    <link rel="stylesheet" href="assets/css/contato/formcontato--esquerda.css">
+    <link rel="stylesheet" href="assets/css/contato/formcontato__form.css">
+    <link rel="stylesheet" href="assets/css/contato/formcontato__text.css">
+    <link rel="stylesheet" href="assets/css/contato/formcontato.css">
+    <link rel="stylesheet" href="assets/css/contato/formcontato__botao.css">
+
+    <link rel="stylesheet" href="assets/css/footer.css">
 
  
+
+
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -72,15 +92,15 @@
 <!-- Sessão de Header/Title/Hero -->
     <section class="title">
         <div class="title__div">
-            <img class="title__profile" src="assets/imagens/perfil.jpg">
+            <div class="title__profile"></div>
             <div class="title__container" id="#sobremim">
                 <h2 class="title__bio">Olá, meu nome é Gisele França e estou iniciando na área de Frontend</h2>
                 <h3 class="title__subsection">Atualmente estou participando no projeto Oracle ONE na Alura.</h3>
                 <ul class="title__network">
                     <!-- Ponha os links de suas redes sociais favoritas -->
-                    <li class="title__network__item"><a href="">Github <img src="assets/imagens/arrow.png"> </a></li>
-                    <li class="title__network__item"><a href="">Linkedin <img src="assets/imagens/arrow.png"></a></li>
-                    <li class="title__network__item"><a href="">Instagram <img src="assets/imagens/arrow.png"></a></li>
+                    <li class="title__network__item"><a href="https://github.com/Gisa99">Github <img src="assets/imagens/arrow.png"> </a></li>
+                    <li class="title__network__item"><a href="https://www.linkedin.com/in/giselefranca-devfrontend/">Linkedin <img src="assets/imagens/arrow.png"></a></li>
+                    <li class="title__network__item"><a href="https://instagram.com/fr_gisa?igshid=NGExMmI2YTkyZg==">Instagram <img src="assets/imagens/arrow.png"></a></li>
                     <li class="title__network__item"><a href="">Curriculo <img src="assets/imagens/arrow.png"></a></li>
                 </ul>
             </div>
@@ -91,9 +111,13 @@
     <section class="about">
         <div class="about__container">
             <h3 class="about__title">Sobre mim</h3>
-            <p class="about__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia. </p>
-            <p class="about__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia. Aenean sit amet felis venenatis, egestas metus vitae, aliquet metus.</p>
-            <!-- Caso queira colocar sua própria assinatura, insira aqui! -->
+    
+                <p class="about__paragraph">Sou uma pessoa curiosa, adoro pesquisar e saber como as coisas funcionam.</p> 
+
+                <p class="about__paragraph" >Trabalhei por 7 anos no setor de Pesquisa e Desenvolvimento numa indústria alimentícia, e apesar de ser uma área diferente, pude desenvolver habilidades para trabalhar em equipe, usar minha criatividade e ser responsável por outras pessoas do time.</p>
+                
+                <p class="about__paragraph">Atualmente desejo trabalhar como Desenvolvedora Frontend, pois é uma área que me indentifico cada vez mais! ;)</p>
+          
         </div>
     </section>
 
@@ -131,43 +155,36 @@
             <div class="hobbies__line">
                 <div class="hobbies__box">
                     <ul>
-                        <li class="hobbies__img"><img src="assets\skate_icon.png"></li>
-                        <li class="hobbies__name"> Andar de skate</li>
+                        <li class="hobbies__img oculos"><img src="assets/imagens/oculos.png"></li>
+                        <li class="hobbies__name">Ler</li>
                     </ul>
                 </div>
 
                 <div class="hobbies__box">
                     <ul>
-                        <li class="hobbies__img"> <img src="assets\guitar_icon.png" alt=""></li>
-                        <li class="hobbies__name">Tocar baixo</li>
+                        <li class="hobbies__img"> <img src="assets/imagens/livro-de-desenho.png" alt=""></li>
+                        <li class="hobbies__name">Desenhar</li>
                     </ul>
                 </div>
 
                 <div class="hobbies__box">
                     <ul>
-                        <li class="hobbies__img"> <img src="assets\headphones_icon.png" alt=""></li>
+                        <li class="hobbies__img"> <img src="assets/imagens/headphones_icon.png" alt=""></li>
                         <li class="hobbies__name">Ouvir música</li>
                     </ul>
                 </div>
 
                 <div class="hobbies__box">
                     <ul>
-                        <li class="hobbies__img"><img src="assets\tv_icon.png" alt=""></li>
-                        <li class="hobbies__name">Assistir séries</li>
+                        <li class="hobbies__img"><img src="assets/imagens/anime.png" alt=""></li>
+                        <li class="hobbies__name">Assistir Animes</li>
                     </ul>
                 </div>
 
                 <div class="hobbies__box">
                     <ul>
-                        <li class="hobbies__img"> <img src="assets\forkspoon_icon.png" alt=""> </li>
-                        <li class="hobbies__name">Cozinhar</li>
-                    </ul>
-                </div>
-
-                <div class="hobbies__box">
-                    <ul>
-                        <li class="hobbies__img"> <img src="assets\camera_icon.png" alt=""> </li>
-                        <li class="hobbies__name">Tirar fotos</li>
+                        <li class="hobbies__img"> <img src="assets/imagens/academia.png" alt=""> </li>
+                        <li class="hobbies__name">Treinar</li>
                     </ul>
                 </div>
         </div>
@@ -178,45 +195,38 @@
         <h2 class="academic__title" id="formacao">Formação acadêmica</h2>
         <div class="academic__courses">
             <div>
-                <div class="academic__courses__box">
-                    <!-- Insira a logo de seu local de formação -->
-                    <li class="academic__courses__item__img"><img src="" alt="logo curso"></li>
-
+                <div class="academic__courses__box  academic__courses__box--curso1">
+            
                 </div>
                 <div>
                     <ul class="academic__courses__list">
                     
-                        <li class="academic__courses__item__title"><h4>Pós-graduação design</h4></li>
-                        <li class="academic__courses__item__subtitle"><p>Em andamento - UFRJ</p></li>
+                        <li class="academic__courses__item__title"><h4>HTML 5 - Básico</h4></li>
+                        <li class="academic__courses__item__subtitle"><p>DEVMEDIA - 2022</p></li>
                     </ul>
                 </div>
                
             </div>
             <div>
-                <div class="academic__courses__box">
-                    <!-- Insira a logo de seu local de formação -->
-                    <li class="academic__courses__item__img"><img src="" alt="logo curso"></li>
-
+                <div class="academic__courses__box academic__courses__box--curso2">          
                 </div>
                 <div>
                     <ul class="academic__courses__list">
-                        <li class="academic__courses__item__title"><h4>Pós-graduação design</h4></li>
-                        <li class="academic__courses__item__subtitle"><p>Em andamento - UFRJ</p></li>
+                        <li class="academic__courses__item__title"><h4>Desenvolvimento WEB</h4></li>
+                        <li class="academic__courses__item__subtitle"><p>Estudonauta - 2022</p></li>
                     </ul>
                 </div>
                
             </div>
             <div>
-                <div class="academic__courses__box">
-                    <!-- Insira a logo de seu local de formação -->
-                    <li class="academic__courses__item__img"><img src="" alt="logo curso"></li>
-
+                <div class="academic__courses__box academic__courses__box--curso3">
+                
                 </div>
                 <div>
                     <ul class="academic__courses__list">
                     
-                        <li class="academic__courses__item__title"><h4>Pós-graduação design</h4></li>
-                        <li class="academic__courses__item__subtitle"><p>Em andamento - UFRJ</p></li>
+                        <li class="academic__courses__item__title"><h4>Business Agility T5 - ONE</h4></li>
+                        <li class="academic__courses__item__subtitle"><p> Oracle Next Education - 06/2023</p></li>
                     </ul>
                 </div>
                
@@ -227,12 +237,12 @@
     <!-- Sessão de Experiência Profissional/Projetos-->
     <section class="experience">
         <h2 class="experience__section__title" id="xp">Experiência Profissional</h2>
-        <div class="experiencie__box">
+        <div class="experience__box">
             <!-- Insira a logo/captura de seu projeto/trabalho -->
-            <img class="experience__img" src="">
+            <div class="experience__img experience__img--alurinha" ></div>
             <div class="experience__info">
-                <h2 class="experience__title">Decodificador de texto</h2>
-                <h3 class="experience__text">Challenge Alura Codificador </h3>
+                <h2 class="experience__title">Alurinha</h2>
+                <h3 class="experience__text">Página de Cursos</h3>
                     <div class="experience__description">
                         <!-- Insira a link para demonstração do projeto no Github e/ou GithubPages -->
                             <span class="experience__repo"><a href=""><button class="experiencia__botao--repo">Repositório</button></a></span>
@@ -241,54 +251,38 @@
             </div>
         </div>  
 
-        <div class="experiencie__box">
-            <!-- Insira a logo/captura de seu projeto/trabalho -->
-            <img class="experience__img" src="">
+        <div class="experience__box">
             <div class="experience__info">
-                <h2 class="experience__title"> Jogo criado com HTML, CSS e JavaScript </h2>
-                <h3 class="experience__text">Challenge Oracle </h3>
+                <h2 class="experience__title">Campanha dia das Mães</h2>
+                <h3 class="experience__text"> landing mobil para produtos promocionais</h3>
                     <div class="experience__description">
                         <!-- Insira a link para demonstração do projeto no Github e/ou GithubPages -->
                             <span class="experience__repo"><a href=""><button class="experiencia__botao--repo">Repositório</button></a></span>
                             <span class="experience__demo"><a href=""><button class="experiencia__botao--demo">Ver demo</button></a></span>
                     </div>
             </div>
+            <div class="experience__img experience__img--colageno"></div>
         </div>  
 
-        <div class="experiencie__box">
-            <!-- Insira a logo de seu projeto/trabalho -->
-            <img class="experience__img" src="">
-            <div class="experience__info"
-                <h2 class="experience__title">Decodificador de texto</h2>
-                <h3 class="experience__text">Challenge Alura Codificador </h3>
+        <div class="experience__box">
+            <div class="experience__img experience__img--children"></div>
+            <div class="experience__info">
+                <h2 class="experience__title">Hora do Desenho</h2>
+                <h3 class="experience__text">Página de desenho de fácil acesso para crianças que nao sabem ler</h3>
                     <div class="experience__description">
                         <!-- Insira a link para demonstração do projeto no Github e/ou GithubPages -->
                             <span class="experience__repo"><a href=""><button class="experiencia__botao--repo">Repositório</button></a></span>
                             <span class="experience__demo"><a href=""><button class="experiencia__botao--demo">Ver demo</button></a></span>
                     </div>
             </div>
+            
         </div>  
 
-        <div class="experiencie__box">
-            <!-- Insira a logo de seu projeto/trabalho -->
-            <img class="experience__img" src="">
-            <div class="experience__info"
-            <h2 class="experience__title">Jogo criado com HTML, CSS e JavaScript</h2>
-                <h3 class="experience__text">Challenge Oracle </h3>
-                    <div class="experience__description">
-                        <!-- Insira a link para demonstração do projeto no Github e/ou GithubPages -->
-                            <span class="experience__repo"><a href=""><button class="experiencia__botao--repo">Repositório</button></a></span>
-                            <span class="experience__demo"><a href=""><button class="experiencia__botao--demo">Ver demo</button></a></span>
-                    </div>
-        </div>
-        </div>  
 
         <!-- Sessão de Contato -->
         <section class="formcontato">
             <div id="contato" class="formcontato__contacto">
-                <div class="formcontato--esquerda">
-                    <img class="formcontato__img" src="assets\contact_image.png">
-                </div>
+                <div class="formcontato--esquerda"></div>
                 <div class="formcontato__text">
                     <h2 class="formcontato__title">Contato</h2>
                     <h3 class="formcontato__subtext">Quer entrar em contato comigo?</h3>
@@ -307,8 +301,8 @@
         <!-- Sessão de Footer/Rodapé-->
         <section class="footer">
             <div class="footer__rodape">
-                <p>Desenvolvido por Fulana de Tal</p>
-                <p>2022</p>
+                <p>Desenvolvido por Gisele França</p>
+                <p>2023</p>
             </div>
         </section>
     </div>

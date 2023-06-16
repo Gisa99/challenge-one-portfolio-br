@@ -3,6 +3,7 @@
     flex-direction: row-reverse;
     justify-content: space-between;
     align-items: center;
-    gap: ;
-    width: 100%;
+    column-gap: 5px;
+    margin-left: 5.5rem;
+    margin-right: 5.5rem;
 }

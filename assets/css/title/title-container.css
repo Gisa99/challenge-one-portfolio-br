@@ -1,12 +1,9 @@
 .title__container{
+    align-items: flex-start;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    column-gap: 208px;
     margin: 0 auto;
-
-    width: 65%;
-    
+    width: 60%;  
 }
 
 .title__bio{
