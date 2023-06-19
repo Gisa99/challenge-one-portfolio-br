@@ -14,16 +14,30 @@
 
 .academic__courses__box--curso1{
    background: url(../../imagens/1.jpg);
+   background-size: cover;
 
     
   } 
 
   .academic__courses__box--curso2{
     background: url(../../imagens/2.jpg);
+    background-size: cover;
     
   } 
 
   .academic__courses__box--curso3{
     background: url(../../imagens/3.jpg);
+    background-size: cover;
     
+  }
+
+  
+ 
+
+  @media(min-width: 768px) and (max-width: 1024px){
+    .academic__courses__box{
+      height: 118px;
+      width: 224px;
+    }
+   
   }

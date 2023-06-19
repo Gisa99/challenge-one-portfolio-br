@@ -83,8 +83,9 @@
                 <li class="menu__list__item"><a href="#hobbies">Hobbies</a></li>
                 <li class="menu__list__item"><a href="#formacao">Formações e Cursos</a></li>
                 <li class="menu__list__item"><a href="#xp">Experiência</a></li>
-                <li class="menu__list__item contato"><a href="#contato">rgisele644@gmail.com</a></li>
+                <li class="menu__list__item menu__list__item--contato "><a href="#contato">rgisele644@gmail.com</a></li>
             </ul>
+            
          
         </nav>
     </section>
@@ -251,7 +252,7 @@
             </div>
         </div>  
 
-        <div class="experience__box">
+        <div class="experience__box experience__box--projetoDois">
             <div class="experience__info">
                 <h2 class="experience__title">Campanha dia das Mães</h2>
                 <h3 class="experience__text"> landing mobil para produtos promocionais</h3>
@@ -287,11 +288,17 @@
                     <h2 class="formcontato__title">Contato</h2>
                     <h3 class="formcontato__subtext">Quer entrar em contato comigo?</h3>
                     <h3 class="formcontato__subtext">Preencha o formulário ao lado e entrarei em contato o mais rápido possível. </h3>
-                    <form class="formcontato__form">
-                        <input class="formcontato__input" type="text" id="nome" placeholder="Nome">
-                        <input class="formcontato__input" type="email" id="email" placeholder="Email">
-                        <input class="formcontato__input" type="text" id="assunto" placeholder="Assunto">
-                        <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensagem" placeholder="Sua mensagem"></textarea>
+                    <form id="form" class="formcontato__form">
+                        <input class="formcontato__input required" type="text" id="nome" placeholder="Nome" oninput="nameValidate()">
+                        <span class="span-required"> O nome deve ter no mínimo 3 caracteres</span>
+
+                        <input class="formcontato__input required" type="email" id="email" placeholder="Email">
+                        <span class="span-required"> Digite um e-mail válido</span>
+
+                        <input class="formcontato__input required" type="text" id="assunto" placeholder="Assunto">
+                        <span class="span-required"> Campo obrigatório</span>
+
+                        <textarea class="formcontato__textarea required" rows="5" cols="40" id="mensagem" name="mensagem" placeholder="Sua mensagem"></textarea>
                         <button class="formcontato__botao">Enviar mensagem</button>
                     </form>
                 </div>

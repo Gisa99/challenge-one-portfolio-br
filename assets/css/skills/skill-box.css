@@ -1,4 +1,4 @@
-.hobbies__box{
+.skills__box{
     background: #FFFFFF;
     width: 176px;
     height: 174px;
@@ -13,7 +13,7 @@
 }
 
 
-.hobbies__box ul{
+.skills__box ul{
     margin-block-start: 0;
     margin-block-end: 0;
     margin-inline-start: 0px;
@@ -22,7 +22,27 @@
     padding-bottom: 1rem;   
 }
 
-.hobbies__box ul li{
+.skills__box ul li{
     color: #464646;
     font-size: 16px;
+    line-height: 20px;
 }
+
+@media(min-width: 320px) and (max-width: 768px){
+    .skills__box{
+        width: 156px;
+        height: 118px;
+        column-gap: 8px;
+
+    } 
+}
+
+@media(min-width: 768px) and (max-width: 1024px){
+    .skills__box{
+        width: 224px;
+        height: 118px;
+    }
+
+    }
+    
+

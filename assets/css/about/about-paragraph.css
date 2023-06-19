@@ -5,8 +5,28 @@
     font-weight: 400;
     line-height: 18.78px;
     color:  #464646;
-
     margin-right: 152px;
     margin-left: 152px;
 
+}  
+
+@media(min-width: 375px) and (max-width: 768px){
+    .about__paragraph{
+        margin: 1rem 2rem;
+        width: 80%;
+        font-size: 14px;
+    }
+
 }
+
+
+@media(min-width: 768px) and (max-width: 1024px){
+    .about__paragraph{
+       font-size: 14px;
+       margin: 0px;
+       padding: 0.5rem 2.5rem;
+       padding-right: 1rem;
+       width: 90%;
+    }
+   
+ }

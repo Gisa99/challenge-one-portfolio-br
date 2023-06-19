@@ -4,3 +4,16 @@
     margin: 2rem 5.5rem;
 }
 
+@media(min-width: 320px) and (max-width: 1024px){
+    .formcontato__contacto{
+        margin: 1rem 1rem;
+        width: 100vw;
+    }
+}
+
+@media(min-width: 768px) and (max-width: 1024px){
+    .formcontato__contacto{
+        margin: 1rem 2rem;
+        width: 100vw;
+    }
+}

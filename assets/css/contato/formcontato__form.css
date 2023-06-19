@@ -4,6 +4,14 @@
     row-gap: 32px;
 }
 
+.span-required{
+    color: #ff1212;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 1px 0 1px 0;
+    display: none;
+}
+
 .formcontato__form input{
     border: none;
     box-shadow: 0 1px 3px 0.5px #a2a2a273;
@@ -45,4 +53,22 @@ textarea:focus{
     border-bottom: 0 none;
     outline: 0;
 } 
+
+@media(min-width: 320px) and (max-width: 768px){
+    .formcontato__form input {
+        width: 296px;
+        height: 56px;
+    }
+
+    .formcontato__textarea{
+        width: 296px; 
+    }
+}
+
+@media(min-width: 768px) and (max-width: 1024px){
+    .formcontato__form input{
+        width: 704px;
+        height: 56px;
+    }
+}
 

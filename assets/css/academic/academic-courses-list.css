@@ -20,6 +20,17 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 15px;
+} 
+
+@media(min-width: 720px) and (max-width: 1024px){
+    .academic__courses__item__title{
+        font-size: 16px;
+    }
+
+    .academic__courses__item__subtitle{
+        font-size: 14px;
+        line-height: 15px;
+    }
 }
 
 

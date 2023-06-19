@@ -7,3 +7,12 @@
     font-size: 32px;
     line-height: 38px;
 }
+
+
+@media(min-width: 320px) and (max-width: 1024px){
+    .skills__title{
+        font-size: 22px;
+    }
+
+}
+

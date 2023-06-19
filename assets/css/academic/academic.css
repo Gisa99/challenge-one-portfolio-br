@@ -4,3 +4,12 @@
     padding: 82px 0;
     margin-top: 5rem;
 }
+
+
+@media(min-width: 768px) and (max-width: 1024px){
+    .academic{
+      height: 291px;
+      padding: 3rem 0;
+      margin-top: 0;
+    }
+}
