@@ -12,8 +12,8 @@
 
 @media(min-width: 375px) and (max-width: 768px){
     .about__paragraph{
-        margin: 1rem 2rem;
-        width: 80%;
+        margin: 1rem 1rem;
+        width: 95vw;
         font-size: 14px;
     }
 

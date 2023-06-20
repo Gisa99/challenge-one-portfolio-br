@@ -5,6 +5,7 @@
     font-weight: 700;
     font-size: 32px;
     line-height: 38px;
+    width: 100%;
 }
 
 .formcontato__subtext{
@@ -15,6 +16,8 @@
     font-size: 16px;
     line-height: 19px;
 }
+
+
 
 @media(min-width: 320px) and (max-width: 768px){
     .formcontato__title{

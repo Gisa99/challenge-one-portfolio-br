@@ -1,11 +1,15 @@
 .formcontato{
     background: #EAF2FD;
-    padding: 4rem 0;
+    padding: 4rem 1rem 4rem 0;
+    width: 100vw;
+
 }
 
 @media(min-width: 320px) and (max-width: 768px){
     .formcontato{
-        padding: 1rem 1.3rem;   
+        
+        width: 100vw;
+          
     }
 }
 

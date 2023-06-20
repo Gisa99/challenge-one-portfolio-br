@@ -9,6 +9,7 @@
 }
 @media(min-width: 320px) and (max-width: 768px){
     .title__div{
+        width: 100%;
         align-items: flex-start;
         flex-direction: column;
         margin-left: 0;

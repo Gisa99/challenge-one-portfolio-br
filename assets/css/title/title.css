@@ -9,6 +9,7 @@
 }
 @media(min-width: 320px) and (max-width: 1024px ){
     .title{
+        width: 100vw;
         height: 294px;
         padding: 1rem 0 4rem 0;
     }

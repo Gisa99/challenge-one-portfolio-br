@@ -25,9 +25,9 @@
 @media(min-width: 320px) and (max-width: 1024px){
     .title__container{
         height: 140px;
-        width: 328px;
-        margin-left: 2rem;
-        padding-top: 0 ;
+        width: 95%;
+        margin: 0 1rem;
+        padding: 0 1rem 0 0;
     }
     .title__bio{
         font-size: 22px;

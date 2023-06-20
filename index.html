@@ -288,18 +288,23 @@
                     <h2 class="formcontato__title">Contato</h2>
                     <h3 class="formcontato__subtext">Quer entrar em contato comigo?</h3>
                     <h3 class="formcontato__subtext">Preencha o formulário ao lado e entrarei em contato o mais rápido possível. </h3>
-                    <form id="form" class="formcontato__form">
-                        <input class="formcontato__input required" type="text" id="nome" placeholder="Nome" oninput="nameValidate()">
-                        <span class="span-required"> O nome deve ter no mínimo 3 caracteres</span>
+                    <form id="form" class="formcontato__form" action="https://formsubmit.co/rgisele644@gmail.com " method="POST">
+                        <input id="nome" class="formcontato__input required" type="text" id="nome" placeholder="Nome" name="name" required >
+                        <span class="span-required"> Por favor, preencha seu nome</span>
+                
 
-                        <input class="formcontato__input required" type="email" id="email" placeholder="Email">
+                        <input id="email" class="formcontato__input required" name="name" type="email" id="email" placeholder="Email" name="e-mail" required>
                         <span class="span-required"> Digite um e-mail válido</span>
 
-                        <input class="formcontato__input required" type="text" id="assunto" placeholder="Assunto">
+                        <input id="assunto" class="formcontato__input required" type="text" id="assunto" placeholder="Assunto" name="assunto" required>
                         <span class="span-required"> Campo obrigatório</span>
 
-                        <textarea class="formcontato__textarea required" rows="5" cols="40" id="mensagem" name="mensagem" placeholder="Sua mensagem"></textarea>
-                        <button class="formcontato__botao">Enviar mensagem</button>
+                        <textarea class="formcontato__textarea required" rows="5" cols="40" id="mensagem" name="message" placeholder="Sua mensagem" name="name" required></textarea>
+                        <button class="formcontato__botao" type="submit" onclick="validar();">Enviar mensagem</button>
+
+                        <input type="hidden" name="_subject" value="Novo Contato!">
+                        <input type="text" name="_honey" style="display:none">
+                        <input type="hidden" name="_captcha" value="false">
                     </form>
                 </div>
             </div>
