@@ -4,7 +4,7 @@
     align-items: flex-start;
     background: #EAF2FD;
     width: 100%;
-    margin: 0 auto;
+    
 }
 @media(min-width: 375px) and (max-width: 768px){
     .about{
