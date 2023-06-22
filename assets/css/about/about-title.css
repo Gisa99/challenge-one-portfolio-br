@@ -5,9 +5,10 @@
    font-weight: 700;
    font-size: 32px;
    line-height: 38px;
+   margin-right: 2rem;
+   margin-left: 8rem;
 
-   margin-right: 152px;
-   margin-left: 152px;
+  
 }
 @media(min-width: 320px) and (max-width: 1024px){
    .about__title{
