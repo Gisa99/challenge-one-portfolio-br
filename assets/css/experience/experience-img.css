@@ -15,6 +15,12 @@
     background-position: center;
 }
 
+.experience__img--descriptador{
+    background: url(../../imagens/desencriptador.png);
+    background-size: cover;
+    background-position: center;
+}
+
 @media(min-width: 320px) and (max-width: 768px){
     .experience__img{
         width: 296px;
