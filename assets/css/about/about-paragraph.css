@@ -5,9 +5,7 @@
     font-weight: 400;
     line-height: 18.78px;
     color:  #464646;
-    margin-right: 2rem;
-    margin-left: 8rem;
-
+    margin-left: 25%;
 }  
 
 @media(min-width: 375px) and (max-width: 768px){
